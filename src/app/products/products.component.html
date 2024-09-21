@@ -1,9 +1,22 @@
 <div class="whole-body">
 
-  <p>products works!</p>
-  <h1 class="">jkvn</h1>
 
+
+    <button (click)="getData()" class="btn">Click her get product Details</button>
+    <div class="inner-body">
+    <div *ngIf="data">
+      <table>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tr *ngFor="let product of data">
+          <td>{{product.id}}</td>
+          <td>{{product.title}}</td>
+          <td>{{product.price}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </div>
-
-
-

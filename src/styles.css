@@ -5,5 +5,14 @@
   margin-top: 10px;
   height: 490px;
   border-radius: 5px;
+
 }
 
+.inner-body{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 300px;
+  top: 130px;
+
+}
