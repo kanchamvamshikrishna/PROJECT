@@ -8,8 +8,10 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  { path: '', component:HomeComponent },
   { path: 'products', component:ProductsComponent },
   { path: 'products', component:ProductsComponent },
   { path: 'about', component:AboutComponent },
@@ -21,7 +23,8 @@ const routes: Routes = [
     HeaderComponent,
     ProductsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
