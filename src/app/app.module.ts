@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 
+
 const routes: Routes = [
   { path: '', component:HomeComponent },
   { path: 'products', component:ProductsComponent },
@@ -24,7 +25,8 @@ const routes: Routes = [
     ProductsComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,

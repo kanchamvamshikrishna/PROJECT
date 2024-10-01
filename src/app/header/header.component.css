@@ -3,8 +3,8 @@ ul{
  display: flex;
  justify-content: flex-start;
  background-color: rgb(195, 236, 236);
- gap: 20PX;
- width: 20%;
+ gap: 20px;
+ width: 30%;
  border: 10px;
  box-shadow: 2px 2px 2px;
  height: 40px;
